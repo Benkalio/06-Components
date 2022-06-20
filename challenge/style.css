@@ -1,0 +1,87 @@
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+/* 
+      COLOR SYSTEM
+
+      Main Color: #087f5b
+      Grey color: #343a40
+      */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: 'inter', sans-serif;
+  line-height: 1;
+  color: #333;
+
+  /* Center the content  */
+  display: flex;
+  justify-content: center;
+}
+
+.challenge {
+  margin-top: 150px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+a:link,
+a:visited {
+  font: 18px;
+  color: #333;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover,
+a:active,
+a.page-link {
+  cursor: pointer;
+  background-color: rgb(11, 60, 60);
+  color: #fff;
+}
+
+button {
+  border: 1px solid #333;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  background: none;
+}
+button:hover {
+  color: #fff;
+  background-color: rgb(9, 59, 59);
+  cursor: pointer;
+}
+button:hover .btn-icon {
+  stroke: #fff;
+}
+
+.btn-icon {
+  stroke: rgb(23, 39, 39);
+  width: 24px;
+  height: 24px;
+}
+
+span {
+  color: rgb(81, 77, 77);
+}
