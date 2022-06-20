@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Rubik', sans-serif;
+  color: #444;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  color: rgb(243, 239, 239);
+
+  /* DARKENING THE BACKGROUND IMAGE WITH LINEAR GRADIENT */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(40, 30, 17, 0.432)),
+    url(hero.jpg);
+  background-size: cover;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #659595; */
+  padding-top: 32px;
+}
+
+.header-container {
+  width: 1200px;
+  position: absolute;
+
+  /* In relation to the Parent size */
+  left: 50%;
+  top: 50%;
+
+  /* In relation to the Element size */
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  width: 50%;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+  line-height: 1;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 9px;
+}
+
+section {
+  padding: 96px 0;
+  /* background-color: #659595; */
+}
